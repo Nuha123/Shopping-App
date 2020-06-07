@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/group0"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+    </group>
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/clothing"
+            android:icon="@drawable/tshirt"
+            android:title="Clothing" />
+        <item
+            android:id="@+id/shoes"
+            android:icon="@drawable/shoes1"
+            android:title="Shoes" />
+        <item
+            android:id="@+id/equipments"
+            android:icon="@drawable/ic_fitness_center_black_24dp"
+            android:title="Equipments" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_account"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="My Account" />
+        <item
+            android:id="@+id/wishlist"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Wishlist" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="History" />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help_outline_black_24dp"
+            android:title="Help" />
+    </group>
+</menu>

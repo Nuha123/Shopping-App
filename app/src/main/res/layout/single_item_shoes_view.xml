@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:id="@+id/image"
+            android:src="@drawable/ic_insert_emoticon_black_24dp"/>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Brand"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Color"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Size"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="Features"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#ccc7c7"
+        android:layout_width="150dp"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

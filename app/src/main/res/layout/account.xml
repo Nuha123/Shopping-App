@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear_layout"
+    android:layout_marginTop="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_margin="7dp"
+        android:text="PROFILE"/>
+
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#cfcfcf"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_account_circle_black_24dp"/>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:orientation="vertical"
+           android:layout_marginLeft="20dp"
+           android:layout_weight="0.5"
+           android:layout_marginTop="7dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="#000000"
+               android:textSize="15sp"
+               android:id="@+id/user_name"
+               android:text="User Name"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:textSize="11dp"
+               android:text="Change your account information"/>
+
+       </LinearLayout>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_chevron_right_black_24dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#cfcfcf"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_credit_card_black_24dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="Payment Cards"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="11sp"
+                android:text="Link a payment card to your account"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_chevron_right_black_24dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#cfcfcf"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_location_on_black_24dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="Address"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="11dp"
+                android:text="Add or remove a delivery address"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_chevron_right_black_24dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="15dp"
+        android:background="#cfcfcf"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_margin="10dp"
+        android:text="BENEFITS"/>
+
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#cfcfcf"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_star_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:layout_weight="1"
+           android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:text="Reward Points"/>
+
+
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_chevron_right_black_24dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#cfcfcf"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_local_offer_black_24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:textSize="15sp"
+                android:text="Exclusive offers"/>
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_chevron_right_black_24dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#cfcfcf"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:id="@+id/log_out"
+        android:fontFamily="sans-serif-light"
+        android:text="Log out"/>
+
+</RelativeLayout>
